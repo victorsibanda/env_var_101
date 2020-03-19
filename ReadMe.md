@@ -18,5 +18,17 @@ For us an environment is a system where code runs for different purposes. Usuall
 This is great for things:
 - Risk Reduction
 - things that you don't want to have in your code!
-- like access keys
+- like **access keys**
 - AWS_SCRETE keys
+
+```bash
+
+MY_VAR = GOODYEAR
+MYVAR #Command not found
+echo MY_VAR #returns MY_VAR
+echo $MY_VAR #returns GOODYEAR
+
+MY_VAR=$(pwd)
+echo MY_VAR #returns pwd now 
+
+```
