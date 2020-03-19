@@ -29,6 +29,18 @@ echo MY_VAR #returns MY_VAR
 echo $MY_VAR #returns GOODYEAR
 
 MY_VAR=$(pwd)
-echo MY_VAR #returns pwd now 
+echo MY_VAR #returns pwd now
 
 ```
+- If you restart your terminal it will not be persistent and reset.
+
+### Bash Child process, and exporting
+
+```bash
+
+echo 'My process'
+echo $MY_VAR
+
+```
+
+![Screenshot 2020-03-19 at 12 38 34](https://user-images.githubusercontent.com/60632288/77068872-44232980-69df-11ea-836c-3d727055894e.png)
